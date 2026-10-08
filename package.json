@@ -1,0 +1,14 @@
+{
+  "name": "megawide-room-reservations",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boardroom and Studio reservation portal for the Megawide corporate office (11F Santolan Town Plaza, San Juan City).",
+  "scripts": {
+    "build": "python3 build.py",
+    "test": "python3 build.py && playwright test",
+    "test:headed": "python3 build.py && playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.0"
+  }
+}
